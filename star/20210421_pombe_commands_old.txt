@@ -1,0 +1,90 @@
+mkdir /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/758_20_L
+STAR --runThreadN 8 --genomeDir /rds/general/user/bheineik/home/genomes/pombe_20201008_star --readFilesIn BMH_758_20_L_S28_R1_001.fastq.gz BMH_758_20_L_S28_R2_001.fastq.gz --readFilesCommand zcat --outFileNamePrefix /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/758_20_L/758_20_L_ --outReadsUnmapped Fastx --outMultimapperOrder Random --alignIntronMax 1200 --alignMatesGapMax 1700 --quantMode GeneCounts
+echo '758_20_L complete '
+mkdir /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/758_20_M
+STAR --runThreadN 8 --genomeDir /rds/general/user/bheineik/home/genomes/pombe_20201008_star --readFilesIn BMH_758_20_M_S5_R1_001.fastq.gz BMH_758_20_M_S5_R2_001.fastq.gz --readFilesCommand zcat --outFileNamePrefix /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/758_20_M/758_20_M_ --outReadsUnmapped Fastx --outMultimapperOrder Random --alignIntronMax 1200 --alignMatesGapMax 1700 --quantMode GeneCounts
+echo '758_20_M complete '
+mkdir /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/758_20_cont
+STAR --runThreadN 8 --genomeDir /rds/general/user/bheineik/home/genomes/pombe_20201008_star --readFilesIn BMH_758_20_cont_S3_R1_001.fastq.gz BMH_758_20_cont_S3_R2_001.fastq.gz --readFilesCommand zcat --outFileNamePrefix /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/758_20_cont/758_20_cont_ --outReadsUnmapped Fastx --outMultimapperOrder Random --alignIntronMax 1200 --alignMatesGapMax 1700 --quantMode GeneCounts
+echo '758_20_cont complete '
+mkdir /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/758_60_L
+STAR --runThreadN 8 --genomeDir /rds/general/user/bheineik/home/genomes/pombe_20201008_star --readFilesIn BMH_758_60_L_S19_R1_001.fastq.gz BMH_758_60_L_S19_R2_001.fastq.gz --readFilesCommand zcat --outFileNamePrefix /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/758_60_L/758_60_L_ --outReadsUnmapped Fastx --outMultimapperOrder Random --alignIntronMax 1200 --alignMatesGapMax 1700 --quantMode GeneCounts
+echo '758_60_L complete '
+mkdir /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/758_60_M
+STAR --runThreadN 8 --genomeDir /rds/general/user/bheineik/home/genomes/pombe_20201008_star --readFilesIn BMH_758_60_M_S20_R1_001.fastq.gz BMH_758_60_M_S20_R2_001.fastq.gz --readFilesCommand zcat --outFileNamePrefix /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/758_60_M/758_60_M_ --outReadsUnmapped Fastx --outMultimapperOrder Random --alignIntronMax 1200 --alignMatesGapMax 1700 --quantMode GeneCounts
+echo '758_60_M complete '
+mkdir /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/758_60_cont
+STAR --runThreadN 8 --genomeDir /rds/general/user/bheineik/home/genomes/pombe_20201008_star --readFilesIn BMH_758_60_cont_S6_R1_001.fastq.gz BMH_758_60_cont_S6_R2_001.fastq.gz --readFilesCommand zcat --outFileNamePrefix /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/758_60_cont/758_60_cont_ --outReadsUnmapped Fastx --outMultimapperOrder Random --alignIntronMax 1200 --alignMatesGapMax 1700 --quantMode GeneCounts
+echo '758_60_cont complete '
+mkdir /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/759_20_L
+STAR --runThreadN 8 --genomeDir /rds/general/user/bheineik/home/genomes/pombe_20201008_star --readFilesIn BMH_759_20_L_S21_R1_001.fastq.gz BMH_759_20_L_S21_R2_001.fastq.gz --readFilesCommand zcat --outFileNamePrefix /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/759_20_L/759_20_L_ --outReadsUnmapped Fastx --outMultimapperOrder Random --alignIntronMax 1200 --alignMatesGapMax 1700 --quantMode GeneCounts
+echo '759_20_L complete '
+mkdir /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/759_20_M
+STAR --runThreadN 8 --genomeDir /rds/general/user/bheineik/home/genomes/pombe_20201008_star --readFilesIn BMH_759_20_M_S25_R1_001.fastq.gz BMH_759_20_M_S25_R2_001.fastq.gz --readFilesCommand zcat --outFileNamePrefix /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/759_20_M/759_20_M_ --outReadsUnmapped Fastx --outMultimapperOrder Random --alignIntronMax 1200 --alignMatesGapMax 1700 --quantMode GeneCounts
+echo '759_20_M complete '
+mkdir /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/759_20_cont
+STAR --runThreadN 8 --genomeDir /rds/general/user/bheineik/home/genomes/pombe_20201008_star --readFilesIn BMH_759_20_cont_S7_R1_001.fastq.gz BMH_759_20_cont_S7_R2_001.fastq.gz --readFilesCommand zcat --outFileNamePrefix /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/759_20_cont/759_20_cont_ --outReadsUnmapped Fastx --outMultimapperOrder Random --alignIntronMax 1200 --alignMatesGapMax 1700 --quantMode GeneCounts
+echo '759_20_cont complete '
+mkdir /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/759_60_L
+STAR --runThreadN 8 --genomeDir /rds/general/user/bheineik/home/genomes/pombe_20201008_star --readFilesIn BMH_759_60_L_S26_R1_001.fastq.gz BMH_759_60_L_S26_R2_001.fastq.gz --readFilesCommand zcat --outFileNamePrefix /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/759_60_L/759_60_L_ --outReadsUnmapped Fastx --outMultimapperOrder Random --alignIntronMax 1200 --alignMatesGapMax 1700 --quantMode GeneCounts
+echo '759_60_L complete '
+mkdir /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/759_60_M
+STAR --runThreadN 8 --genomeDir /rds/general/user/bheineik/home/genomes/pombe_20201008_star --readFilesIn BMH_759_60_M_S4_R1_001.fastq.gz BMH_759_60_M_S4_R2_001.fastq.gz --readFilesCommand zcat --outFileNamePrefix /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/759_60_M/759_60_M_ --outReadsUnmapped Fastx --outMultimapperOrder Random --alignIntronMax 1200 --alignMatesGapMax 1700 --quantMode GeneCounts
+echo '759_60_M complete '
+mkdir /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/759_60_cont
+STAR --runThreadN 8 --genomeDir /rds/general/user/bheineik/home/genomes/pombe_20201008_star --readFilesIn BMH_759_60_cont_S12_R1_001.fastq.gz BMH_759_60_cont_S12_R2_001.fastq.gz --readFilesCommand zcat --outFileNamePrefix /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/759_60_cont/759_60_cont_ --outReadsUnmapped Fastx --outMultimapperOrder Random --alignIntronMax 1200 --alignMatesGapMax 1700 --quantMode GeneCounts
+echo '759_60_cont complete '
+mkdir /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/762_20_L
+STAR --runThreadN 8 --genomeDir /rds/general/user/bheineik/home/genomes/pombe_20201008_star --readFilesIn BMH_762_20_L_S15_R1_001.fastq.gz BMH_762_20_L_S15_R2_001.fastq.gz --readFilesCommand zcat --outFileNamePrefix /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/762_20_L/762_20_L_ --outReadsUnmapped Fastx --outMultimapperOrder Random --alignIntronMax 1200 --alignMatesGapMax 1700 --quantMode GeneCounts
+echo '762_20_L complete '
+mkdir /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/762_20_M
+STAR --runThreadN 8 --genomeDir /rds/general/user/bheineik/home/genomes/pombe_20201008_star --readFilesIn BMH_762_20_M_S11_R1_001.fastq.gz BMH_762_20_M_S11_R2_001.fastq.gz --readFilesCommand zcat --outFileNamePrefix /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/762_20_M/762_20_M_ --outReadsUnmapped Fastx --outMultimapperOrder Random --alignIntronMax 1200 --alignMatesGapMax 1700 --quantMode GeneCounts
+echo '762_20_M complete '
+mkdir /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/762_20_cont
+STAR --runThreadN 8 --genomeDir /rds/general/user/bheineik/home/genomes/pombe_20201008_star --readFilesIn BMH_762_20_cont_S2_R1_001.fastq.gz BMH_762_20_cont_S2_R2_001.fastq.gz --readFilesCommand zcat --outFileNamePrefix /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/762_20_cont/762_20_cont_ --outReadsUnmapped Fastx --outMultimapperOrder Random --alignIntronMax 1200 --alignMatesGapMax 1700 --quantMode GeneCounts
+echo '762_20_cont complete '
+mkdir /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/762_60_L
+STAR --runThreadN 8 --genomeDir /rds/general/user/bheineik/home/genomes/pombe_20201008_star --readFilesIn BMH_762_60_L_S22_R1_001.fastq.gz BMH_762_60_L_S22_R2_001.fastq.gz --readFilesCommand zcat --outFileNamePrefix /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/762_60_L/762_60_L_ --outReadsUnmapped Fastx --outMultimapperOrder Random --alignIntronMax 1200 --alignMatesGapMax 1700 --quantMode GeneCounts
+echo '762_60_L complete '
+mkdir /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/762_60_M
+STAR --runThreadN 8 --genomeDir /rds/general/user/bheineik/home/genomes/pombe_20201008_star --readFilesIn BMH_762_60_M_S29_R1_001.fastq.gz BMH_762_60_M_S29_R2_001.fastq.gz --readFilesCommand zcat --outFileNamePrefix /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/762_60_M/762_60_M_ --outReadsUnmapped Fastx --outMultimapperOrder Random --alignIntronMax 1200 --alignMatesGapMax 1700 --quantMode GeneCounts
+echo '762_60_M complete '
+mkdir /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/762_60_cont
+STAR --runThreadN 8 --genomeDir /rds/general/user/bheineik/home/genomes/pombe_20201008_star --readFilesIn BMH_762_60_cont_S10_R1_001.fastq.gz BMH_762_60_cont_S10_R2_001.fastq.gz --readFilesCommand zcat --outFileNamePrefix /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/762_60_cont/762_60_cont_ --outReadsUnmapped Fastx --outMultimapperOrder Random --alignIntronMax 1200 --alignMatesGapMax 1700 --quantMode GeneCounts
+echo '762_60_cont complete '
+mkdir /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/838_20_L
+STAR --runThreadN 8 --genomeDir /rds/general/user/bheineik/home/genomes/pombe_20201008_star --readFilesIn BMH_838_20_L_S23_R1_001.fastq.gz BMH_838_20_L_S23_R2_001.fastq.gz --readFilesCommand zcat --outFileNamePrefix /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/838_20_L/838_20_L_ --outReadsUnmapped Fastx --outMultimapperOrder Random --alignIntronMax 1200 --alignMatesGapMax 1700 --quantMode GeneCounts
+echo '838_20_L complete '
+mkdir /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/838_20_M
+STAR --runThreadN 8 --genomeDir /rds/general/user/bheineik/home/genomes/pombe_20201008_star --readFilesIn BMH_838_20_M_S17_R1_001.fastq.gz BMH_838_20_M_S17_R2_001.fastq.gz --readFilesCommand zcat --outFileNamePrefix /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/838_20_M/838_20_M_ --outReadsUnmapped Fastx --outMultimapperOrder Random --alignIntronMax 1200 --alignMatesGapMax 1700 --quantMode GeneCounts
+echo '838_20_M complete '
+mkdir /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/838_20_cont
+STAR --runThreadN 8 --genomeDir /rds/general/user/bheineik/home/genomes/pombe_20201008_star --readFilesIn BMH_838_20_cont_S14_R1_001.fastq.gz BMH_838_20_cont_S14_R2_001.fastq.gz --readFilesCommand zcat --outFileNamePrefix /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/838_20_cont/838_20_cont_ --outReadsUnmapped Fastx --outMultimapperOrder Random --alignIntronMax 1200 --alignMatesGapMax 1700 --quantMode GeneCounts
+echo '838_20_cont complete '
+mkdir /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/838_60_L
+STAR --runThreadN 8 --genomeDir /rds/general/user/bheineik/home/genomes/pombe_20201008_star --readFilesIn BMH_838_60_L_S27_R1_001.fastq.gz BMH_838_60_L_S27_R2_001.fastq.gz --readFilesCommand zcat --outFileNamePrefix /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/838_60_L/838_60_L_ --outReadsUnmapped Fastx --outMultimapperOrder Random --alignIntronMax 1200 --alignMatesGapMax 1700 --quantMode GeneCounts
+echo '838_60_L complete '
+mkdir /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/838_60_M
+STAR --runThreadN 8 --genomeDir /rds/general/user/bheineik/home/genomes/pombe_20201008_star --readFilesIn BMH_838_60_M_S30_R1_001.fastq.gz BMH_838_60_M_S30_R2_001.fastq.gz --readFilesCommand zcat --outFileNamePrefix /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/838_60_M/838_60_M_ --outReadsUnmapped Fastx --outMultimapperOrder Random --alignIntronMax 1200 --alignMatesGapMax 1700 --quantMode GeneCounts
+echo '838_60_M complete '
+mkdir /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/838_60_cont
+STAR --runThreadN 8 --genomeDir /rds/general/user/bheineik/home/genomes/pombe_20201008_star --readFilesIn BMH_838_60_cont_S13_R1_001.fastq.gz BMH_838_60_cont_S13_R2_001.fastq.gz --readFilesCommand zcat --outFileNamePrefix /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/838_60_cont/838_60_cont_ --outReadsUnmapped Fastx --outMultimapperOrder Random --alignIntronMax 1200 --alignMatesGapMax 1700 --quantMode GeneCounts
+echo '838_60_cont complete '
+mkdir /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/WT_20_L
+STAR --runThreadN 8 --genomeDir /rds/general/user/bheineik/home/genomes/pombe_20201008_star --readFilesIn BMH_WT_20_L_S1_R1_001.fastq.gz BMH_WT_20_L_S1_R2_001.fastq.gz --readFilesCommand zcat --outFileNamePrefix /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/WT_20_L/WT_20_L_ --outReadsUnmapped Fastx --outMultimapperOrder Random --alignIntronMax 1200 --alignMatesGapMax 1700 --quantMode GeneCounts
+echo 'WT_20_L complete '
+mkdir /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/WT_20_M
+STAR --runThreadN 8 --genomeDir /rds/general/user/bheineik/home/genomes/pombe_20201008_star --readFilesIn BMH_WT_20_M_S16_R1_001.fastq.gz BMH_WT_20_M_S16_R2_001.fastq.gz --readFilesCommand zcat --outFileNamePrefix /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/WT_20_M/WT_20_M_ --outReadsUnmapped Fastx --outMultimapperOrder Random --alignIntronMax 1200 --alignMatesGapMax 1700 --quantMode GeneCounts
+echo 'WT_20_M complete '
+mkdir /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/WT_20_cont
+STAR --runThreadN 8 --genomeDir /rds/general/user/bheineik/home/genomes/pombe_20201008_star --readFilesIn BMH_WT_20_cont_S18_R1_001.fastq.gz BMH_WT_20_cont_S18_R2_001.fastq.gz --readFilesCommand zcat --outFileNamePrefix /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/WT_20_cont/WT_20_cont_ --outReadsUnmapped Fastx --outMultimapperOrder Random --alignIntronMax 1200 --alignMatesGapMax 1700 --quantMode GeneCounts
+echo 'WT_20_cont complete '
+mkdir /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/WT_60_L
+STAR --runThreadN 8 --genomeDir /rds/general/user/bheineik/home/genomes/pombe_20201008_star --readFilesIn BMH_WT_60_L_S9_R1_001.fastq.gz BMH_WT_60_L_S9_R2_001.fastq.gz --readFilesCommand zcat --outFileNamePrefix /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/WT_60_L/WT_60_L_ --outReadsUnmapped Fastx --outMultimapperOrder Random --alignIntronMax 1200 --alignMatesGapMax 1700 --quantMode GeneCounts
+echo 'WT_60_L complete '
+mkdir /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/WT_60_M
+STAR --runThreadN 8 --genomeDir /rds/general/user/bheineik/home/genomes/pombe_20201008_star --readFilesIn BMH_WT_60_M_S8_R1_001.fastq.gz BMH_WT_60_M_S8_R2_001.fastq.gz --readFilesCommand zcat --outFileNamePrefix /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/WT_60_M/WT_60_M_ --outReadsUnmapped Fastx --outMultimapperOrder Random --alignIntronMax 1200 --alignMatesGapMax 1700 --quantMode GeneCounts
+echo 'WT_60_M complete '
+mkdir /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/WT_60_cont
+STAR --runThreadN 8 --genomeDir /rds/general/user/bheineik/home/genomes/pombe_20201008_star --readFilesIn BMH_WT_60_cont_S24_R1_001.fastq.gz BMH_WT_60_cont_S24_R2_001.fastq.gz --readFilesCommand zcat --outFileNamePrefix /rds/general/user/bheineik/home/rna_seq_data/20210315_pombe_ox_bulk/Unaligned/WT_60_cont/WT_60_cont_ --outReadsUnmapped Fastx --outMultimapperOrder Random --alignIntronMax 1200 --alignMatesGapMax 1700 --quantMode GeneCounts
+echo 'WT_60_cont complete '
